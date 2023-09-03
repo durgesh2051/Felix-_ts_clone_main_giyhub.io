@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 5px black;
+  align-items: center;
+  padding: 10px;
+}
+.logo {
+  margin-left: -20px;
+}
+.dropdown ul {
+  list-style: none;
+  margin-left: -200px;
+}
+.dropdown ul li ul {
+  position: absolute;
+  top: 40px;
+  left: 500px;
+  background-color: white;
+  padding: 10px 40px;
+  line-height: 50px;
+  display: none;
+  background-image: linear-gradient(white, pink);
+  transition: 5s ease-in;
+}
+.dropdown ul li ul li {
+  border-bottom: 1px solid black;
+  width: 150px;
+}
+.dropdown ul li:hover > ul {
+  display: inline;
+  transition: 10s ease-out;
+}
+.dropdown ul {
+  padding: 10px;
+  background-color: #f53941;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.S_W_C a {
+  text-decoration: none;
+  padding-left: 60px;
+  color: black;
+}
+.S_W_C a:hover {
+  text-decoration: underline;
+  color: #f32e38;
+}
+
+.S_W_C ul {
+  list-style: none;
+  display: inline-block;
+}
+.S_W_C ul li ul {
+  position: absolute;
+  top: 40px;
+  padding: 10px;
+  right: 190px;
+  text-align: center;
+  background-color: white;
+  padding: 10px 40px;
+  line-height: 50px;
+  display: none;
+  background-image: linear-gradient(white, pink);
+}
+.S_W_C ul li ul li {
+  border-bottom: 1px solid black;
+  width: 150px;
+}
+.S_W_C ul li:hover > ul {
+  display: inline;
+  transition: 10s ease-out;
+}
+.Section_1 {
+  display: flex;
+  gap: 50px;
+}
+.Section_1 h1 {
+  margin-top: 10px;
+  margin-left: -20px;
+  font-size: 22px;
+  line-height: 40px;
+  font-weight: 900;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Roboto Mono", monospace;
+}
+.Section_1 span {
+  padding: 5px;
+  background-color: #f53942a9;
+}
+.Section_1 h3 {
+  margin-left: -20px;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.593);
+}
+.Section_1 p {
+  margin-left: -20px;
+  margin-top: 20px;
+  line-height: 25px;
+}
+.Section_1,
+.ig {
+  margin-top: 5px;
+  margin-left: 50px;
+}
+.ig img {
+  width: 700px;
+  height: 350px;
+}
+button {
+  margin-left: -20px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #f53941;
+  color: black;
+  transition: 0.3s ease-in;
+}
+button:hover {
+  background-color: #f53942c4;
+  transition: 0.3s ease-out;
+}
+.dropdown i {
+  color: white;
+}
+.S_W_C i {
+  color: #f53941;
+}
+.section_2 {
+  background-color: #f53941;
+  text-align: center;
+  justify-content: center;
+}
+.section_2 h1 {
+  padding-top: 30px;
+  color: white;
+}
+.all_boxx {
+  display: flex;
+  padding: 0px;
+  padding-top: -50px;
+}
+.one {
+  background-color: white;
+  margin: 50px;
+  padding: 30px 0;
+  border-radius: 10px;
+}
+.one p {
+  margin-top: -7px;
+  line-height: 20px;
+  text-align: center;
+  padding: 20px;
+}
